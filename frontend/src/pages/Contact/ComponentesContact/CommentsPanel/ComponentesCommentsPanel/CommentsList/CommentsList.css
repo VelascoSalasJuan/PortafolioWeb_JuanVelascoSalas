@@ -1,0 +1,15 @@
+.comments-list-title {
+  color: #f8fafc;
+  font-size: 0.95rem;
+}
+
+.comments-list-container {
+  max-height: 320px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.comment-card-placeholder {
+  background-color: rgba(30, 41, 59, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}

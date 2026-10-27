@@ -1,0 +1,26 @@
+.hero-header .home-subtitle {
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  color: #38bdf8;
+  font-weight: 600;
+}
+
+.hero-header .home-title {
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+.hero-header .home-title span:first-child {
+  color: #f8fafc;
+}
+
+.hero-header .home-title span:last-child {
+  background: linear-gradient(90deg, #38bdf8, #818cf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-header .home-description {
+  color: #cbd5e1;
+  max-width: 600px;
+}

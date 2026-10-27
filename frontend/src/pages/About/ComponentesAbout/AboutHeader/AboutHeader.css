@@ -1,0 +1,26 @@
+.about-tagline {
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  color: #38bdf8;
+  font-weight: 600;
+}
+
+.about-main-name {
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+.about-main-name span:first-child {
+  color: #f8fafc;
+}
+
+.about-main-name span:last-child {
+  background: linear-gradient(90deg, #38bdf8, #818cf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-bio {
+  color: #cbd5e1;
+  max-width: 700px;
+}
