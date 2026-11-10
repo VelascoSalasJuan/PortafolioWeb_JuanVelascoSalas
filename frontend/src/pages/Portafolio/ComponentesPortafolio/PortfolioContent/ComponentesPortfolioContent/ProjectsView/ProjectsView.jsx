@@ -9,6 +9,7 @@ export function ProjectsView() {
           title="Portfolio Project"
           description1="########## ########## ########## ##########"
           description2="########## ########## ##########"
+          imageSrc="/proyectos/portafolio.png"
         />
         <ProjectCard
           title="##########"

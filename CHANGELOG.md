@@ -4,6 +4,30 @@ Registro de versiones y cambios del proyecto.
 
 ---
 
+## v0.6.0 — 2026-11-10
+
+Despliegue inicial del portafolio en Vercel y configuración para dominio personalizado.
+
+- Añadido archivo `frontend/vercel.json` con reescrituras para soportar rutas de SPA en producción
+- Configurado proyecto en Vercel con Vite y directorio raíz `frontend`
+- Preparada la integración con el dominio personalizado (`juanvelascodev.dpdns.org`)
+- Actualizado registro en `CHANGELOG.md`
+
+## v0.5.4 — 2026-10-26
+
+Aumento del radio de redondeo en los bordes de las tarjetas de proyectos.
+
+- Actualizado `ProjectCard.css` y `ProjectCard.jsx` para redondear más los bordes de la tarjeta principal (`border-radius: 1rem`), la imagen/marcador superior (`border-radius: 12px`) y el botón *"Details"* (estilo píldora `border-radius: 50rem`)
+- Actualizado registro en `CHANGELOG.md`
+
+## v0.5.3 — 2026-10-26
+
+Creación de carpeta de recursos estáticos para proyectos e integración de soporte para imágenes en tarjetas de proyectos.
+
+- Creada la carpeta `frontend/public/proyectos/` dedicada exclusivamente a almacenar las imágenes futuras de los proyectos
+- Actualizado el componente `ProjectCard` para aceptar la propiedad `imageSrc`, permitiendo mostrar la imagen del proyecto cuando se proporcione o el marcador de posición predeterminado en caso contrario
+- Actualizado registro en `CHANGELOG.md`
+
 ## v0.5.2 — 2026-10-26
 
 Rediseño de tarjetas de proyectos (`ProjectCard`) en la sección Portfolio.
